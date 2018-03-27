@@ -1,0 +1,24 @@
+.letters-wrapper {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.letters-wrapper ul {
+    width: 300px;
+    display: flex;
+}
+
+.letters-wrapper li {
+    width: 30px;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    border: 1px solid black;
+}
+
+.active-key {
+    background-color: #ffb13e;
+}
+.correct-letter {
+    background-color: #5eff2a;
+}
