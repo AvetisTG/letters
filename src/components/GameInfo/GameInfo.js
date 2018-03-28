@@ -42,7 +42,7 @@ class GameInfo extends Component {
       return (
         <div>
           <div className='info-wrapper'>
-            <div>Time Remaining: <span><Countdown date={Date.now() + 3000} onComplete={this.handleCountDownComplete}/></span></div>
+            <div>Time Remaining: <span><Countdown date={Date.now() + 3000} onComplete={lettersRemaining !== 0 ? this.handleCountDownComplete : null}/></span></div>
             <div>Mistakes Count: <span>{mistakes}</span></div>
             <div>Letters Remaining: <span>{lettersRemaining}</span></div>
           </div>
